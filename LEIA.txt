@@ -1,0 +1,8 @@
+# 1. Altere a URL do repositório remoto para a nova conta:
+
+git remote set-url origin https://github.com/NOVO_USUARIO/NOVO_REPOSITORIO.git
+
+# 2. Envie os arquivos para a branch principal:
+
+git branch -M main
+git push -u origin main

@@ -1,0 +1,26 @@
+version: 2.11.1
+apkFileName: mdkproxy-decrypted.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 36
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 2
+  versionName: '2.0'
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- dex
+- png
+- so
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
